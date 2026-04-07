@@ -1,5 +1,5 @@
 # Interception.RocketFasterPermissions
-Something like a wrapper for RocketMod's permissions/groups 
+Something like a wrapper for RocketMod's permissions/groups<br>
 Actually just an attempt to make them work faster using dictionaries and hashsets instead of lists
 
 ## Dependencies
