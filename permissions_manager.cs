@@ -13,7 +13,8 @@ using Rocket.API;
 
 namespace interception.libraries.rocketfasterpermissions {
     // todo more methods
-    // todo make priority work
+    // todo make priority work?
+    // todo as i understand permissions and groups ids are case INsensitive so i need to make them case insensitive here too
 
     public delegate void on_before_player_added_to_group_callback(string group_id, IRocketPlayer player, ref bool allow, ref RocketPermissionsProviderResult override_result);
     public delegate void on_after_player_added_to_group_callback(string group_id, IRocketPlayer player, RocketPermissionsProviderResult result);
